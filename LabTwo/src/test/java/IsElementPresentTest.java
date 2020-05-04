@@ -1,5 +1,6 @@
 import static org.junit.jupiter.api.Assertions.*;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -13,6 +14,9 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import java.util.concurrent.TimeUnit;
 
 public class WebDriverTest {
     private static WebDriver driver;
